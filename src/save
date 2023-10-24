@@ -1,0 +1,39 @@
+<!-- 
+  // func islogin
+//   const [isLogin , setIsLogin] = useState(false)
+//   useEffect(() => {
+// const auth = getAuth()
+// onAuthStateChanged (auth, (result) => {
+//   if(result){
+//     setIsLogin(true)
+//     return
+//   }
+//   setIsLogin(false)
+// // if(result){
+// //   setIsLogin(true),
+// //   setLoading(false)
+// //   return
+
+// // }
+// // setIsLogin(false),
+// // setLoading(false)
+// })
+
+//   }, [])
+// if(loading){
+//   return(
+//     <div style={{textAlign:'center', alignItems:'center'}}>
+//       loading bro.......
+//     </div>
+//   )
+// }
+
+
+
+  // const [loading, setLoading] = useState(false);
+  // useEffect(()=>{
+  // setLoading(true)
+  // setTimeout(()=>{
+  // setLoading(false)
+  // },1000)
+  // }, []) -->
