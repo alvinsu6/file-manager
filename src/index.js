@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { ProSidebarProvider } from 'react-pro-sidebar'
@@ -9,9 +9,9 @@ import {auth} from './config/fire'
 console.info(auth);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
     <ProSidebarProvider>
     <App />
     </ProSidebarProvider>
-  </React.StrictMode>,
+
 )
